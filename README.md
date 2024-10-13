@@ -1,1 +1,0 @@
-Run demo_batch_compression_without_detection.py
