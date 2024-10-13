@@ -6,6 +6,9 @@ download from https://huggingface.co/google-bert/bert-base-uncased and create fo
 
 download from https://huggingface.co/Qwen/Qwen-VL/tree/main and place into a new folder "Qwen-VL" 
 
-run 
+download the weight file in Q-former and rename to "captioning.pth" 
 
+# Run the code, generate the features  
+
+python update_json_batched_test_text_conditioned_feature_extraction.py 
 
