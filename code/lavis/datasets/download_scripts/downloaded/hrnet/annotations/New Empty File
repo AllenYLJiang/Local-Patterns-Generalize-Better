@@ -1,0 +1,2 @@
+for ele_idx in range(len(self.dataset.datasets[0].annotation)):
+    self.dataset.datasets[0].annotation[ele_idx]['image'] = 'heatmaps_new/' + self.dataset.datasets[0].annotation[ele_idx]['image'].split('/')[-1]
