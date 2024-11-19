@@ -4,6 +4,11 @@ train_statespace.py --smooth_or_predwithsmoothed_or_predwithunsmoothed train --e
 # Inference with stacked state machines 
 train_statespace.py --smooth_or_predwithsmoothed_or_predwithunsmoothed predwithunsmoothed 
 
+# Train SMM 
+prepare_training_data_for_SMM_predict_yes_or_no.py 
+convert_format_training_data_for_SMM_predict_yes_or_no.py 
+Save the training data at data\data\dataset_name\train_SMM\train 
+
 # Predict with SMM 
 Step 1: Run inference_SMM_predict_yes_or_no.py to save the embedding of each input image region as a tensor with shape batch_size * 33(=32 vision tokens + 1 question token) * 768(token embedding size).  
 
